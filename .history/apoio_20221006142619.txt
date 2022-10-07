@@ -1,0 +1,15 @@
+para rodar o projeto com react: npm run dev 
+
+biblioteca de icones: phosphor
+
+
+ <header className={styles.header}>
+                <div className={styles.profile}>
+                    <Avatar hasBorder={true} src={author.avatarUrl}/>
+                    <div className={styles.description}>
+                        <strong>{author.name}</strong>
+                        <span>{author.role}</span>
+                    </div>
+                </div>
+                <time>Publicado há 1 h</time>
+            </header>

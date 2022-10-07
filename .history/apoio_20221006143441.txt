@@ -1,0 +1,7 @@
+para rodar o projeto com react: npm run dev 
+
+biblioteca de icones: phosphor
+biblioteca datar: date-fns
+
+
+

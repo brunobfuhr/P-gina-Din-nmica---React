@@ -1,0 +1,6 @@
+.sidebar {
+    width: 100%;
+    background: var(--white);
+    border-radius: 8px;
+    border: 1px solid var(--green-100);
+}

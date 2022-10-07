@@ -1,0 +1,6 @@
+.content {
+    max-width: 74rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

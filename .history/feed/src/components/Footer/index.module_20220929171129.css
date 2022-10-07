@@ -1,0 +1,114 @@
+.post {
+    width: 100%;
+    height: 82.125rem;
+    background: var(--white);
+    border-radius: 8px;
+    border: 1px solid var(--gray-300);
+    padding: 2.5rem;
+
+}
+.header { 
+    display: flex;
+    justify-content: space-between;
+}
+.profile {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: flex-end;
+    margin-bottom: 1.23rem;
+   
+
+}
+
+.avatar {
+    box-sizing: initial;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 8px;
+    border: 2px solid var(--gray-800);
+    outline: 2px solid var(--green-100);
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.description strong {
+    font-size: 1rem;
+    line-height: 1.6;
+
+}
+
+.description span {
+    color: var(--gray-500);
+    line-height: 1.6;
+}
+
+.textbox {
+    width: 100%;
+    height: 12.8rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--gray-600);
+}
+
+.textbox > a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: var(--green-100);
+    font-weight: 400;
+   
+}
+
+.title {
+    margin-top: 1.5rem;
+    font-family: "Roboto" sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--green-900);
+}
+
+.textarea {
+    margin-top: 16px;
+    background: var(--gray-100);
+    width: 100%;
+    height: 6rem;
+    resize: none;
+    border-radius: 8px;
+    border:none;
+}
+.button {
+    margin-top: 0.5rem;
+    width:6.75rem ;
+    height:3rem ;
+    border-radius: 8px;
+    border:none;
+    background: var(--green-100);
+    color: var(--white);
+    font-family: "Roboto" sans-serif;
+    font-size: 1rem;
+}
+.button:hover {
+    background: var(--gray-600);
+}
+
+
+/* COMENTARIOS */
+
+
+.profile2{
+margin-top: 2.8rem;
+}
+
+.imgcomment {
+    width:4.5rem;
+    height:3.8rem;
+    box-sizing: initial;
+    border-radius: 8px;
+    border: 2px solid var(--gray-800);
+   
+}
